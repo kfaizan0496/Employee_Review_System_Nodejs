@@ -2,7 +2,7 @@ const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
 const User = require('../models/user');
 
-// Authentication using passport
+// Authentication using passport and Passport-local Strategy
 passport.use(
   new LocalStrategy(
     {
@@ -22,7 +22,7 @@ passport.use(
           return done(null, false);
         }
 
-        // match the password
+        // Match the credentials
         const isPasswordCorrect = await user.isValidatedPassword(password);
 
         if (!isPasswordCorrect) {

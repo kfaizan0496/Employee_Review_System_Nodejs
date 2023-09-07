@@ -1,12 +1,12 @@
 const Review = require('../models/review');
 const User = require('../models/user');
 
-// Render admin dashboard
+// Render admin dashboard to show all employeess
 module.exports.adminDashboard = async (req, res) => {
   try {
     if (req.isAuthenticated()) {
       if (req.user.role === 'admin') {
-        // populate all users
+        // populate all users in admin_dashboards
         let users = await User.find({}).populate('username');
 
         // filter logged in user
@@ -30,7 +30,7 @@ module.exports.adminDashboard = async (req, res) => {
   }
 };
 
-// Render employee dashboard
+// Render employee dashboard to show all details of employee
 module.exports.employeeDashboard = async (req, res) => {
   try {
     if (req.isAuthenticated()) {

@@ -1,7 +1,7 @@
 const Review = require('../models/review');
 const User = require('../models/user');
 
-// Render the sign in page
+// Render the sign in page to user when user enter your credentials for login
 module.exports.signIn = (req, res) => {
   if (req.isAuthenticated()) {
     if (req.user.role === 'admin') {

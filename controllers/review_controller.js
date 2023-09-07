@@ -1,7 +1,7 @@
 const User = require('../models/user');
 const Review = require('../models/review');
 
-// Asign a review
+// Asign a review to employee or admin
 module.exports.assignReview = async (req, res) => {
   const { recipient_email } = req.body;
   try {

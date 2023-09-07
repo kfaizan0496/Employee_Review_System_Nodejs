@@ -18,7 +18,7 @@ router.post('/update-employee/:id', usersController.updateEmployee);
 router.post('/create', usersController.create);
 router.post('/create-employee', usersController.createEmployee);
 
-// use passport as middleware to authenticate
+// use passport-local  as middleware to authenticate
 router.post(
   '/create-session',
   passport.authenticate('local', { failureRedirect: '/' }),

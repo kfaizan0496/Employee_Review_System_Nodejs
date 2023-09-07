@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+// create Schema for reviews
 const reviewSchema = new mongoose.Schema(
   {
     review: {

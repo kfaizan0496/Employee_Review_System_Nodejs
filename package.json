@@ -4,6 +4,8 @@
   "description": "nodejs application to manage your employess and assigning their reviews",
   "main": "index.js",
   "scripts": {
+    "sass": " sass --watch assets/scss:assets/css ",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mohd Faizan",
