@@ -40,7 +40,8 @@
 </ul>
 <br> <br>
 <h3> Signup page</h3> <br>
-![Screenshot (37)](https://github.com/kfaizan0496/Employee_Review_System_Nodejs/assets/113850768/39afd930-96a0-4847-b33e-d0f3f33fd1d1)
+
+![Screenshot (37)](https://github.com/kfaizan0496/Employee_Review_System_Nodejs/assets/113850768/c136ca6b-80a6-43b5-bf08-41d141b00ffe)
 
 <h3> Sign in page</h3> <br>
 
@@ -48,7 +49,8 @@
 
 
 <h3>Admin Dashboard</h3> <br>
-![Screenshot (39)](https://github.com/kfaizan0496/Employee_Review_System_Nodejs/assets/113850768/44a08352-5686-4c4f-ad25-5af9892ea59a)
+
+![Screenshot (39)](https://github.com/kfaizan0496/Employee_Review_System_Nodejs/assets/113850768/e0834546-0219-44a0-8408-90b2d8bf482a)
 
 <h3>Add Employee Dashboard</h3> <br>
 
@@ -60,7 +62,8 @@
 ![Screenshot (41)](https://github.com/kfaizan0496/Employee_Review_System_Nodejs/assets/113850768/1c8af029-2a84-4fb2-a8e3-56fbf1eaaa97)
 
 <h3>Assign Review</h3> <br>
-![Screenshot (42)](https://github.com/kfaizan0496/Employee_Review_System_Nodejs/assets/113850768/8ec1431b-664d-42d2-84a1-3da6f2d17bce)
+
+![Screenshot (42)](https://github.com/kfaizan0496/Employee_Review_System_Nodejs/assets/113850768/6695f749-de69-4ce3-b422-e45cb5d75a5c)
 
 
 ![Screenshot (43)](https://github.com/kfaizan0496/Employee_Review_System_Nodejs/assets/113850768/1606ff56-4fbb-4119-a803-25eb41264b1c)
@@ -68,6 +71,7 @@
 <h3>Employee Assigned Reviews</h3> <br>
 
 
+![Screenshot (44)](https://github.com/kfaizan0496/Employee_Review_System_Nodejs/assets/113850768/8dcf7021-1e63-425c-8d0f-b159b8ceac74)
 
-![Uploading Screenshot (44).png…]()
+
 
